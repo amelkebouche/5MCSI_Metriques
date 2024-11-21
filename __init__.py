@@ -24,7 +24,7 @@ def meteo():
     return jsonify(results=results)
 @app.route("/rapport/")
 def mongraphique():
-    return render_template("graphic.html")
+    return render_template("graphique.html")
 @app.route("/histogramme/")
 def histogramme():
     return render_template("histogramme.html")
